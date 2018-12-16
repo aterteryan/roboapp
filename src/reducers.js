@@ -7,7 +7,6 @@ const initialState = {
 };
 
 export const searchRobots = (state = initialState, action = {}) => {
-    debugger;
     switch (action.type) {
         case CHANGE_SEARCH_FIELD:
             return { ...state, searchField: action.payload }
